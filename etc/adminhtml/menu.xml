@@ -1,0 +1,6 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Iverve_CrudOperation::mycontact" title="Crud Operation" module="Iverve_CrudOperation" sortOrder="50" resource="Iverve_CrudOperation::mycontact"/>
+        <add id="Iverve_CrudOperation::manage_items" title="All Information" module="Iverve_CrudOperation" sortOrder="10" parent="Iverve_CrudOperation::mycontact" action="mycontact/contacts/" resource="Iverve_CrudOperation::mycontact"/>
+    </menu>
+</config>
